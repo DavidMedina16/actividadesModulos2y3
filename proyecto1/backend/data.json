@@ -1,0 +1,27 @@
+[
+    {
+        "nombre":"Auditoria contable",
+        "imagen":"https://img.freepik.com/foto-gratis/mujer-asiatica-trabajando-traves-papeleo_53876-138148.jpg?t=st=1719109714~exp=1719113314~hmac=4cf4e511ff5c0c79c3401fa7f7ae379b8ed084b385bafc857969b59929419b8b&w=900",
+        "precio":5000000
+    },
+    {
+        "nombre":"Outsourcing contable",
+        "imagen":"https://img.freepik.com/foto-gratis/contador-calculando-ganancias-graficas-analisis-financiero_74855-4937.jpg?t=st=1719109737~exp=1719113337~hmac=f898864a0830b498c42ce3eee4c1805ec9210363cb02c506a9f05f85fc08835e&w=900",
+        "precio":1000000
+    },
+    {
+        "nombre":"Declaracion de renta",
+        "imagen":"https://img.freepik.com/foto-gratis/gerente-hombre-caucasico-joven-gafas-sentado-oficina-empresa_176420-7926.jpg?t=st=1719109753~exp=1719113353~hmac=948860f6261cc7d0016981faafad5b5c0eb53c2f8c4d0e48153ae38654c6f108&w=900",
+        "precio":2300000
+    },
+    {
+        "nombre":"Prsentacion de impuestos",
+        "imagen":"https://img.freepik.com/foto-gratis/empresarios-que-trabajan-finanzas-contabilidad-analizan-financi_74952-1411.jpg?t=st=1719109768~exp=1719113368~hmac=657a173136c0221e22cea00971fc29b2ffa6a1267890571d03e0063266b2ba9e&w=900",
+        "precio":4100000
+    },
+    {
+        "nombre":"Contaduria a empresa",
+        "imagen":"https://img.freepik.com/foto-gratis/primer-plano-manos-contador-contando-calculadora_1262-3170.jpg?t=st=1719109781~exp=1719113381~hmac=363be75f12501138216f65123ded2aa0229ae02be2aab0df8efa770d150211a3&w=900",
+        "precio":6000000
+    }
+]
