@@ -18,7 +18,7 @@ productsRouter.post('/registrarProducto',postProducts);
 productsRouter.delete('/eliminarProducto/:_id',deleteProductById);
 
 // Ruta para la peticion PUT
-productsRouter.put('actualizarProducto/:_id',putProductById);
+productsRouter.put('/actualizarProducto/:_id',putProductById);
 
 // Exportamos las rutas
 export default productsRouter;
