@@ -1,0 +1,6 @@
+Notas Bootcamp desarrollo web
+
+CLASE 21 DE JUNIO 
+
+- El archivo app.js es donde se activa el funcionamiento de todo el backend de un proyecto
+- Carpeta config: es donde va el archivo para la conexión a la db (en esta carpeta se configura todo lo que debe ser configurado en el proyecto)
