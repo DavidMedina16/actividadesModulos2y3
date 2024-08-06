@@ -9,7 +9,7 @@ export async function connectionMongo (){
     
     try{
         await mongoose.connect(process.env.URL_DATABASE,{})
-        console.log('Conecxion exitosa con la base de datos');
+        console.log('Conexion exitosa con la base de datos');
     }catch(error){
         console.error('Error de conexion: ', error);
 
