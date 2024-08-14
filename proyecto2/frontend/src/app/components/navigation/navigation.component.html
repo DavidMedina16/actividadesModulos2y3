@@ -70,11 +70,11 @@
 <!-- Navbar -->
 
 <!-- Formulario de registro -->
-<div *ngIf="isVisibleRegister">
-    <app-register></app-register>
+<div *ngIf="isVisibleRegister" class="vw-100 vh-100 bg-dark bg-opacity-75 position-fixed top-0 start-0 d-flex justify-content-center align-items-center">
+  <app-register [toggleLogin]="toggleLogin.bind(this)" class="position-absolute"></app-register>
 </div>
 
-<!-- Formulario Login -->
-<div *ngIf="isVisibleLogin">
-    <app-login></app-login>
+<!-- Formulario Ingreso -->
+<div *ngIf="isVisibleLogin" class="vw-100 vh-100 bg-dark bg-opacity-75 position-fixed top-0 start-0 d-flex justify-content-center align-items-center">
+  <app-login [toggleRegister]="toggleRegister.bind(this)" class="position-absolute"></app-login>
 </div>

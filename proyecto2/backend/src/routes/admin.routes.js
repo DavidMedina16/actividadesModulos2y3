@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { postAdmin, getAdmin, deleteAdminById } from "../controllers/admin.controller.js";
+import { postAdmin, getAdmin, deleteAdminById } from "../controllers/admin.controllers.js";
 import auth from "../middlewares/auth.js";
 
 const adminRouter = Router();

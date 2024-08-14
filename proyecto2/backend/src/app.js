@@ -13,8 +13,8 @@ dotenv.config();
 // cors -> middlewares -> intermediarios
 app.use(cors());
 
-
-const port = process.env.PORT ? process.env.PORT:6000;
+// const port = process.env.PORT || 9000 ;
+const port = process.env.PORT ? process.env.PORT: 6000;
 
 // Ejecutar la base de datos
 connectionMongo();
@@ -26,5 +26,5 @@ app.use('/login', longinRouter);
 
 // 3. Escuchar nuestro servidor para poder ejecutar el app
 app.listen(port,()=>{
-    console.log('El puerto se esta escuchando en: http://localhost:$ {port}')
+    console.log(`El puerto se esta escuchando en: http://localhost:${port}`)
 });

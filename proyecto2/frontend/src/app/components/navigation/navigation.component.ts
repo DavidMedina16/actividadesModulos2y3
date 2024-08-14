@@ -17,9 +17,11 @@ export class NavigationComponent {
 
   toggleLogin(){
     this.isVisibleLogin = !this.isVisibleLogin;
+    this.isVisibleRegister = false;
   }
 
   toggleRegister(){
     this.isVisibleRegister = !this.isVisibleRegister;
+    this.isVisibleLogin = false;
   }
 }
